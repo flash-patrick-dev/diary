@@ -117,5 +117,7 @@
 │       ├── papers/                    # 兩篇論文原文 PDF
 │       │   ├── pandora_open_ran_drl.pdf
 │       │   └── interforan_uplink_interference.pdf
-│       └── slides/                    # 統整簡報 PDF
-│           └── 應用 AI 進行網路流量與通道效能估測實現資源配置最佳化.pdf
+│       ├── slides/                    # 統整簡報 PDF
+│       │   └── 應用 AI 進行網路流量與通道效能估測實現資源配置最佳化.pdf
+│       ├── PandORA_notes.md          # PandORA 閱讀紀錄（如已建立）
+│       └── InterfO-RAN_notes.md      # InterfO-RAN 閱讀紀錄（如已建立）
