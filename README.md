@@ -12,12 +12,12 @@
 ## 0. 目前規劃說明（依老師要求）
 
 1. **兩篇論文分開讀、分開整理**  
-   - PandORA → 先以 PDF（`論文1.pdf`）閱讀，之後會獨立整理成 PandORA 筆記與專用投影片  
-   - InterfO-RAN → 先以 PDF（`論文2.pdf`）閱讀，之後也會有自己的筆記與投影片  
+   - PandORA → 先以 PDF（`papers/pandora_open_ran_drl.pdf`）閱讀，之後會獨立整理成 PandORA 筆記與專用投影片  
+   - InterfO-RAN → 先以 PDF（`papers/interforan_uplink_interference.pdf`）閱讀，之後也會有自己的筆記與投影片  
 
 2. **一邊讀論文就一邊整理投影片，並在 GitHub 紀錄進度**  
    - 目前已先完成一份「統整簡報」（兩篇一起），檔名：  
-     - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`
+     - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`（之後可搬到 `slides/` 資料夾）  
    - 接下來的做法是：每完成一個章節（例如 Introduction / System Model / Method / Experiments），就：
      - 在紙本或數位筆記整理重點（之後會匯整成 Markdown 檔）  
      - 更新統整簡報內容，並重新上傳到 GitHub  
@@ -49,20 +49,23 @@
 
 ## 2. 目前檔案列表（Repository 現況）
 
-> 目前 Repository 內實際存在的檔案只有三個 PDF：一份統整簡報，兩篇論文原始 PDF。  
+> 目前主要的 PDF 檔案為一份統整簡報與兩篇論文原始 PDF。  
 > 後續會依進度再新增筆記與更多簡報檔。
 
 - 📄 **統整簡報（目前使用中的簡報檔）**  
-  - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`
+  - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`  
+    （之後預計搬到 `slides/` 資料夾）
+
 - 📄 **論文 1：PandORA 原文 PDF**  
-  - `論文1.pdf`
+  - [`papers/pandora_open_ran_drl.pdf`](papers/pandora_open_ran_drl.pdf)
+
 - 📄 **論文 2：InterfO-RAN 原文 PDF**  
-  - `論文2.pdf`
+  - [`papers/interforan_uplink_interference.pdf`](papers/interforan_uplink_interference.pdf)
 
 > 後續規劃：  
-> - PandORA 專用投影片（例如：`PandORA_slides_v1.pdf`）  
-> - InterfO-RAN 專用投影片（例如：`InterfO-RAN_slides_v1.pdf`）  
-> - 閱讀筆記（例如：`PandORA_notes.md`, `InterfO-RAN_notes.md`）  
+> - PandORA 專用投影片（例如：`slides/PandORA_slides_v1.pdf`）  
+> - InterfO-RAN 專用投影片（例如：`slides/InterfO-RAN_slides_v1.pdf`）  
+> - 閱讀筆記（例如：`notes/PandORA_notes.md`, `notes/InterfO-RAN_notes.md`）  
 > 這些檔案出現後會再更新 README。
 
 ---
@@ -82,13 +85,13 @@
 
 **目前對應檔案**
 
-- 論文原文 PDF：`論文1.pdf`  
+- 論文原文 PDF：[`papers/pandora_open_ran_drl.pdf`](papers/pandora_open_ran_drl.pdf)  
 - 統整簡報中與 PandORA 相關的頁面：收錄於  
   - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`  
 
 > 後續會將 PandORA 的重點整理成：  
 > - PandORA 專用簡報檔（獨立檔名）  
-> - PandORA 筆記檔（Markdown），例如 `PandORA_notes.md`
+> - PandORA 筆記檔（Markdown），例如 `notes/PandORA_notes.md`
 
 ---
 
@@ -105,30 +108,33 @@
 
 **目前對應檔案**
 
-- 論文原文 PDF：`論文2.pdf`  
+- 論文原文 PDF：[`papers/interforan_uplink_interference.pdf`](papers/interforan_uplink_interference.pdf)  
 - 統整簡報中與 InterfO-RAN 相關的頁面：同樣收錄於  
   - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`  
 
 > 後續會將 InterfO-RAN 的重點整理成：  
 > - InterfO-RAN 專用簡報檔  
-> - InterfO-RAN 筆記檔（Markdown），例如 `InterfO-RAN_notes.md`
+> - InterfO-RAN 筆記檔（Markdown），例如 `notes/InterfO-RAN_notes.md`
 
 ---
 
-## 4. 未來資料夾結構規劃（之後會慢慢長出來）
+## 4. Repository 結構（現況＋預計）
 
-目前實際情況：根目錄只有 `README.md` + 三個 PDF。  
-以下是**預計**長成的樣子，方便老師了解之後的整理方向：
+目前已存在與預計使用的資料夾結構如下，方便老師了解之後的整理方向：
 
 ```text
 .
-├── README.md                                  # 本文件
-├── 應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf   # 統整簡報（目前已存在）
-├── 論文1.pdf                                   # PandORA 原文 PDF（已存在）
-├── 論文2.pdf                                   # InterfO-RAN 原文 PDF（已存在）
-├── slides/                                    # 之後：個別簡報
-│   ├── PandORA_slides_v1.pdf                  # PandORA 專用投影片
-│   └── InterfO-RAN_slides_v1.pdf              # InterfO-RAN 專用投影片
-└── notes/                                     # 之後：詳細閱讀筆記（Markdown）
-    ├── PandORA_notes.md
-    └── InterfO-RAN_notes.md
+├── README.md                          # 本文件
+├── logs/
+│   └── plans/
+│       └── 2025.md                    # 年度 / 長期規劃
+├── 應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf   # 統整簡報（可之後搬到 slides/）
+├── papers/                            # 論文原文 PDF
+│   ├── pandora_open_ran_drl.pdf       # PandORA 原文
+│   └── interforan_uplink_interference.pdf  # InterfO-RAN 原文
+├── slides/                            # 之後：個別簡報
+│   ├── PandORA_slides_v1.pdf          # PandORA 專用投影片（預計）
+│   └── InterfO-RAN_slides_v1.pdf      # InterfO-RAN 專用投影片（預計）
+└── notes/                             # 之後：詳細閱讀筆記（Markdown）
+    ├── PandORA_notes.md               # PandORA 筆記（預計）
+    └── InterfO-RAN_notes.md           # InterfO-RAN 筆記（預計）
