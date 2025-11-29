@@ -21,7 +21,7 @@
    - 每完成一個章節（例如 Introduction / System Model / Method / Experiments），就：  
      - 先整理對應的閱讀筆記（紙本或數位）  
      - 立刻更新這份統整簡報中對應的頁面（PandORA / InterfO-RAN 各自的區塊）  
-     - 匯出最新 PDF，重新上傳到上述路徑（檔名不變），讓老師點同一個連結就看到最新版  
+     - 匯出最新 PDF，重新上傳到上述路徑（檔名不變），讓老師點同一個連結就看到最新版。  
 
 3. **所有截止時間都有明確列出，並預留緩衝時間**  
    - 下方「重要查核點（含預留時間）」表格標示：  
@@ -61,7 +61,7 @@
   - [`logs/plans/papers/interforan_uplink_interference.pdf`](logs/plans/papers/interforan_uplink_interference.pdf)
 
 > 後續規劃（視需要逐步加入）：  
-> - Markdown 閱讀筆記（例如：`notes/PandORA_notes.md`， `notes/InterfO-RAN_notes.md`）  
+> - Markdown 閱讀筆記（例如：`logs/plans/PandORA_notes.md`，`logs/plans/InterfO-RAN_notes.md`）  
 > - 若簡報版本更新，可在 README 上簡短註記版本或更新日期。  
 
 ---
@@ -109,7 +109,7 @@
 ## 4. Repository 結構（現況）
 
 ```text
-。
+.
 ├── README.md                          # 本文件
 ├── logs/
 │   └── plans/
