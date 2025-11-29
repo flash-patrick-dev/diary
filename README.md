@@ -12,16 +12,16 @@
 ## 0. 目前規劃說明（依老師要求）
 
 1. **兩篇論文分開讀、分開整理**  
-   - PandORA → 以 `logs/plans/papers/pandora_open_ran_drl.pdf` 閱讀，針對 PandORA 的問題設定、系統架構、DRL 設計與實驗結果分段做筆記。  
-   - InterfO-RAN → 以 `logs/plans/papers/interforan_uplink_interference.pdf` 閱讀，分開整理干擾偵測模型、實驗平台與延伸應用。  
+   - PandORA → 以 [`logs/plans/papers/pandora_open_ran_drl.pdf`](logs/plans/papers/pandora_open_ran_drl.pdf) 閱讀，針對 PandORA 的問題設定、系統架構、DRL 設計與實驗結果分段做筆記。  
+   - InterfO-RAN → 以 [`logs/plans/papers/interforan_uplink_interference.pdf`](logs/plans/papers/interforan_uplink_interference.pdf) 閱讀，分開整理干擾偵測模型、實驗平台與延伸應用。  
 
-2. **一邊讀論文就一邊整理「同一份」統整簡報，並在 GitHub 紀錄進度**  
+2. **一面讀論文就同時整理「同一份」統整投影片，並立刻將投影片超連結放上來**  
    - 簡報目前採 **單一檔案** 完整涵蓋 PandORA 與 InterfO-RAN：  
-     - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`  
-   - 接下來的做法是：每完成一個章節（例如 Introduction / System Model / Method / Experiments），就：  
-     - 在紙本或數位筆記整理重點（之後可再匯整成 Markdown 檔）  
-     - 立刻更新這一份統整簡報中對應的頁面（PandORA / InterfO-RAN 各自的區塊）  
-     - 如有重大修改，重新匯出 PDF 並上傳到 GitHub 取代舊版本  
+     - [`logs/plans/slides/應用 AI 進行網路流量與通道效能估測實現資源配置最佳化.pdf`](logs/plans/slides/應用%20AI%20進行網路流量與通道效能估測實現資源配置最佳化.pdf)  
+   - 每完成一個章節（例如 Introduction / System Model / Method / Experiments），就：  
+     - 先整理對應的閱讀筆記（紙本或數位）  
+     - 立刻更新這份統整簡報中對應的頁面（PandORA / InterfO-RAN 各自的區塊）  
+     - 匯出最新 PDF，重新上傳到上述路徑（檔名不變），讓老師點同一個連結就看到最新版  
 
 3. **所有截止時間都有明確列出，並預留緩衝時間**  
    - 下方「重要查核點（含預留時間）」表格標示：  
@@ -52,7 +52,7 @@
 > 目前主要的 PDF 檔案為一份「統整簡報」與兩篇論文原始 PDF。  
 
 - 📄 **統整簡報（同一份簡報完整涵蓋兩篇論文）**  
-  - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`
+  - [`logs/plans/slides/應用 AI 進行網路流量與通道效能估測實現資源配置最佳化.pdf`](logs/plans/slides/應用%20AI%20進行網路流量與通道效能估測實現資源配置最佳化.pdf)
 
 - 📄 **論文 1：PandORA 原文 PDF**  
   - [`logs/plans/papers/pandora_open_ran_drl.pdf`](logs/plans/papers/pandora_open_ran_drl.pdf)
@@ -61,7 +61,7 @@
   - [`logs/plans/papers/interforan_uplink_interference.pdf`](logs/plans/papers/interforan_uplink_interference.pdf)
 
 > 後續規劃（視需要逐步加入）：  
-> - Markdown 閱讀筆記（例如：`notes/PandORA_notes.md`, `notes/InterfO-RAN_notes.md`）  
+> - Markdown 閱讀筆記（例如：`notes/PandORA_notes.md`， `notes/InterfO-RAN_notes.md`）  
 > - 若簡報版本更新，可在 README 上簡短註記版本或更新日期。  
 
 ---
@@ -82,11 +82,8 @@
 **目前對應檔案**
 
 - 原文 PDF：[`logs/plans/papers/pandora_open_ran_drl.pdf`](logs/plans/papers/pandora_open_ran_drl.pdf)  
-- 統整簡報中與 PandORA 相關的頁面：收錄於  
-  - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`  
-
-> 後續會將 PandORA 的重點持續整理到同一份統整簡報中；  
-> 若有額外筆記檔（Markdown），預計命名為 `notes/PandORA_notes.md`。
+- 對應統整投影片（PandORA 相關頁面）：  
+  - [`logs/plans/slides/應用 AI 進行網路流量與通道效能估測實現資源配置最佳化.pdf`](logs/plans/slides/應用%20AI%20進行網路流量與通道效能估測實現資源配置最佳化.pdf)
 
 ---
 
@@ -104,28 +101,21 @@
 **目前對應檔案**
 
 - 原文 PDF：[`logs/plans/papers/interforan_uplink_interference.pdf`](logs/plans/papers/interforan_uplink_interference.pdf)  
-- 統整簡報中與 InterfO-RAN 相關的頁面：同樣收錄於  
-  - `應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf`  
-
-> 後續會將 InterfO-RAN 的重點整理在同一份統整簡報的對應段落；  
-> 若有額外筆記檔，預計命名為 `notes/InterfO-RAN_notes.md`。
+- 對應統整投影片（InterfO-RAN 相關頁面）：  
+  - [`logs/plans/slides/應用 AI 進行網路流量與通道效能估測實現資源配置最佳化.pdf`](logs/plans/slides/應用%20AI%20進行網路流量與通道效能估測實現資源配置最佳化.pdf)
 
 ---
 
-## 4. Repository 結構（現況＋預計）
-
-目前已存在與預計使用的資料夾結構如下，方便老師了解之後的整理方向：
+## 4. Repository 結構（現況）
 
 ```text
-.
+。
 ├── README.md                          # 本文件
 ├── logs/
 │   └── plans/
 │       ├── 2025.md                    # 年度 / 長期規劃
-│       └── papers/                    # 論文原文 PDF 目前所在位置
-│           ├── pandora_open_ran_drl.pdf
-│           └── interforan_uplink_interference.pdf
-├── 應用 AI 進行網路流量與通道效能估測，實現資源配置最佳化 (3).pdf   # 統整簡報（同一份涵蓋兩篇論文）
-└── notes/                             #（預留）之後若新增 Markdown 筆記會放在這裡
-    ├── PandORA_notes.md               # 預計：PandORA 筆記
-    └── InterfO-RAN_notes.md           # 預計：InterfO-RAN 筆記
+│       ├── papers/                    # 兩篇論文原文 PDF
+│       │   ├── pandora_open_ran_drl.pdf
+│       │   └── interforan_uplink_interference.pdf
+│       └── slides/                    # 統整簡報 PDF
+│           └── 應用 AI 進行網路流量與通道效能估測實現資源配置最佳化.pdf
